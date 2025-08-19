@@ -1,0 +1,8 @@
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-boton p{
+    font-size: 25px;
+}
