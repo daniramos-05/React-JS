@@ -1,14 +1,24 @@
 import './App.css';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import NavBar from './components/NavBar';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import NavBar from "./components/layouts/NavBar/NavBar";
+import ItemListContainer from "./components/pages/ItemListContainer/ItemListContainer";
+import ItemDetail from "./components/pages/ItemDetail/ItemDetail";
+import CartWidget from './components/common/CartWidget/CartWidget';
+
+const links = ["Productos", "Medidas", "Contacto"]
 
 function App() {
-  const links = ["Productos", "Medidas", "Contacto"]
-
   return (
     <>
-      <NavBar links={links} />
-      <ItemListContainer saludo={" ¡Hola👋! "} />
+      <BrowserRouter>
+        <NavBar links={links} />
+        <Routes>
+          <Route path="/" element={<ItemListContainer saludo={" ¡Hola👋! "} />} />
+          <Route path="/categoria/:nombre" element={<ItemListContainer />} />
+          <Route path="/cart" element={<CartWidget />} />
+          <Route path="/itemDetail/:id" element={<ItemDetail />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

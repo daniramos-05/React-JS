@@ -1,4 +1,3 @@
-import React from 'react'
 import './Button.css'
 
 const Button = ({ fn, text, color }) => {
@@ -7,8 +6,6 @@ const Button = ({ fn, text, color }) => {
 
   if (color === "negro") {
     className = "negro"
-  } else {
-    className = "gris"
   }
 
 

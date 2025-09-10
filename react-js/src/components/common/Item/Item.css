@@ -1,0 +1,34 @@
+.contenedor-items{
+    background-color: #BDBFAE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 350px;
+}
+.nombre{
+    font-size: 30px;
+}
+.img{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 1%;
+}
+.description{
+    margin: 10px;
+}
+.precio{
+    font-weight: bold;
+}
+.mas-detalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
