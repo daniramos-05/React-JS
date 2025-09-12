@@ -5,13 +5,12 @@ import ItemListContainer from "./components/pages/ItemListContainer/ItemListCont
 import ItemDetail from "./components/pages/ItemDetail/ItemDetail";
 import CartWidget from './components/common/CartWidget/CartWidget';
 
-const links = ["Productos", "Medidas", "Contacto"]
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavBar links={links} />
+        <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer saludo={" ¡Hola👋! "} />} />
           <Route path="/categoria/:nombre" element={<ItemListContainer />} />

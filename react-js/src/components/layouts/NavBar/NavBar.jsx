@@ -10,9 +10,11 @@ const NavBar = ( {chau, saludo, links, imagen} ) => {
         <h1>Mi Tiendita</h1>
       </Link>
       <ul className="contenedor-articulos">
-        <Link to="/categoria/arriba" className="articulos">Arriba</Link>
-        <Link to="/categoria/abajo" className="articulos">Abajo</Link>
+        <Link to="/categoria/remera" className="articulos">Remeras</Link>
+        <Link to="/categoria/campera" className="articulos">Camperas</Link>
+        <Link to="/categoria/pantalon" className="articulos">Pantalones</Link>
         <Link to="/categoria/calzado" className="articulos">Calzado</Link>
+        <Link to="/categoria/bermuda" className="articulos">Bermudas</Link>
         <Link to="/categoria/accesorios" className="articulos">Accesorios</Link>
       </ul>
       <CartWidget />

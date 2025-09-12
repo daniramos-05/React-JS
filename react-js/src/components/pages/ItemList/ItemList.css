@@ -5,3 +5,10 @@
     margin: 20px;
     gap: 100px;
 }
+.titulo{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: underline;
+}
