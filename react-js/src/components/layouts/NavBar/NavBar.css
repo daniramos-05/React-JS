@@ -9,6 +9,17 @@
     background-color: #20261C;
 }
 
+.icono {
+    color: #F2F2F2;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;       
+    right: 20px;     
+    z-index: 10;
+}
+
 .mi-tiendita {
     font-size: 30px;
     text-decoration: none;
@@ -26,8 +37,9 @@
     display: flex;
     gap: 50px;
     font-weight: bold;
-
+    transition: 1s;
 }
+
 
 .articulos {
     color: #F2F2F2;
@@ -39,5 +51,31 @@
         font-size: 24px;
         transition: 1s;
         text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-articulos {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.5803921569);
+        height: 100vh;
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 100px;
+        align-items: center;
+        transition: right 0.3s ease;
+    }
+
+    .contenedor-articulos.open {
+        right: 0;
+    }
+
+    .icono {
+        display: block;
+        position: absolute;
     }
 }
