@@ -1,0 +1,18 @@
+.contenedor-carrito{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.contenedor-productos-carrito{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: black 2px solid;
+    align-items: center;
+}
+.boton a{
+    color: white;
+    text-decoration: none;
+}
