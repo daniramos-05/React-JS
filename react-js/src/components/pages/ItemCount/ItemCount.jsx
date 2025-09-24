@@ -27,10 +27,10 @@ const ItemCount = ({ producto }) => {
         <Button text="-" fn={restar} color="negro" />
         <span>{count}</span>
         <Button text="+" fn={sumar} color="negro" />
-        <button className="boton" onClick={onAdd} >Agregar Al Carrito</button>
+        <button className="boton" onClick={onAdd}>Agregar Al Carrito</button>
       </div>
     </>
   );
 };
 
-export default ItemCount;
+export default ItemCount
