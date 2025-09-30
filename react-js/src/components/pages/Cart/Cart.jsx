@@ -20,8 +20,7 @@ const Cart = () => {
               <button className='boton' onClick={() => removeProduct(elemento.id)}>Eliminar</button>
             </div>
           )
-        })
-      }
+        })}
         <div>
           <h3>El total del carrito es: ${totalAmount}</h3>
           <button className='boton' onClick={resetCart}>Limpiar todo el carrito</button>

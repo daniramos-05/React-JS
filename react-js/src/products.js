@@ -263,6 +263,6 @@ export const getProductos = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(productos);
-    }, 300);
+    }, 2000);
   })
 } 

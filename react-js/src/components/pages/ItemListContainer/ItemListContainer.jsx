@@ -3,7 +3,7 @@ import "./ItemListContainer.css";
 // import { productos } from "../../../products";
 import { useParams } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
-import { BarLoader } from "react-spinners"
+import { BeatLoader } from "react-spinners"
 import { db } from "../../../firebaseConfig";
 import { collection, getDocs, query, where } from "firebase/firestore"
 
@@ -12,7 +12,7 @@ const ItemListContainer = () => {
   const { nombre } = useParams();
 
   useEffect(() => {
-    const misProductos = nombre ? query(collection(db, "productos"), where("idNombre", "==", nombre)) : collection(db, "productos")
+    const misProductos = nombre ? query(collection(db, "productos"), where("categoria", "==", nombre)) : collection(db, "productos")
     getDocs(misProductos)
       .then(res => {
         const nuevosProductos = res.docs.map(doc => {
@@ -48,7 +48,15 @@ const ItemListContainer = () => {
   return (
     <>
       {/*<button onClick={agregarProductos}>Agregar Productos</button>*/}
-      <ItemList productos={productos} />
+      {productos.length === 0 ? (
+        <BeatLoader
+          color="#9cb68a"
+          margin={8}
+          size={15}
+        />
+      ) : (
+        <ItemList productos={productos} />
+      )}
     </>
   );
 };
