@@ -22,9 +22,11 @@ const Cart = () => {
           )
         })
       }
-      <h3>El total del carrito es: ${totalAmount}</h3>
-      <button className='boton' onClick={resetCart}>Limpiar todo el carrito</button>
-      <button className='boton'><Link to="/checkout">Finalizar Compra</Link></button>
+        <div>
+          <h3>El total del carrito es: ${totalAmount}</h3>
+          <button className='boton' onClick={resetCart}>Limpiar todo el carrito</button>
+          <button className='boton'><Link to="/checkout">Finalizar Compra</Link></button>
+        </div>
     </div>
   )
 }

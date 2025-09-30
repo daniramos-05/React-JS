@@ -3,7 +3,7 @@ import CartWidget from '../../common/CartWidget/CartWidget';
 import { Link } from "react-router-dom"
 import { useState } from 'react';
 
-const NavBar = ({ chau, saludo, links, imagen }) => {
+const NavBar = ({ }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
