@@ -14,16 +14,16 @@ const Cart = () => {
           return (
             <div className='contenedor-productos-carrito' key={elemento.id ? elemento.id : index}>
               <h3>{elemento.nombre}</h3>
-              <img src={elemento.img} alt="" />
-              <h3>cantidad: {elemento.quantity}</h3>
-              <h3>precio: {elemento.precio}</h3>
-              <button onClick={() => removeProduct(elemento.id)}>Eliminar</button>
+              <img className='img-carrito' src={elemento.img} alt="" />
+              <h3>Cantidad: {elemento.quantity}</h3>
+              <h3>Precio: {elemento.precio}</h3>
+              <button className='boton' onClick={() => removeProduct(elemento.id)}>Eliminar</button>
             </div>
           )
         })
       }
       <h3>El total del carrito es: ${totalAmount}</h3>
-      <button onClick={resetCart}>Limpiar todo el carrito</button>
+      <button className='boton' onClick={resetCart}>Limpiar todo el carrito</button>
       <button className='boton'><Link to="/checkout">Finalizar Compra</Link></button>
     </div>
   )

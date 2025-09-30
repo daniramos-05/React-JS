@@ -1,0 +1,15 @@
+.imput-form {
+    background-color: #BDBFAE;
+    color: white;
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

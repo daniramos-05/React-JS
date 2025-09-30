@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "../../common/Button/Button";
+import Button from "../Button/Button";
 import "./ItemCount.css";
 import { CartContext } from "../../../context/CartContext";
 import { useContext } from "react";
@@ -18,7 +18,7 @@ const ItemCount = ({ producto }) => {
 
   const onAdd = () => {
     let productToCart = { ...producto, quantity: count };
-    addToCart (productToCart)
+    addToCart(productToCart)
   };
 
   return (

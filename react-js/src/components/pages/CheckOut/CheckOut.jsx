@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './CheckOut.css'
 
 const CheckOut = () => {
     const [userData, setUserData] = useState({
@@ -20,26 +21,29 @@ const CheckOut = () => {
     return (
         <div>
             <h2>Aca el Formulario de Compra</h2>
-            <form onSubmit={funcionDelFormulario}>
+            <form className="form" onSubmit={funcionDelFormulario}>
                 <input
+                    className="imput-form"
                     type="text"
                     placeholder="nombre"
                     name="nombre"
                     onChange={capturarDatos}
                 />
                 <input
+                    className="imput-form"
                     type="text"
                     placeholder="email"
                     name="userEmail"
                     onChange={capturarDatos}
                 />
                 <input
+                    className="imput-form"
                     type="text"
                     placeholder="telefono"
                     name="telefono"
                     onChange={capturarDatos}
                 />
-                <button type="submit">Enviar</button>
+                <button className="boton" type="submit">Enviar</button>
             </form>
         </div>
     );

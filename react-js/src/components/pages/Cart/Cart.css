@@ -11,6 +11,13 @@
     padding: 10px;
     border: black 2px solid;
     align-items: center;
+    border-radius: 20px;
+    gap: 10px;
+}
+.img-carrito{
+    width: 80%;
+    border: 2px black solid;
+    border-radius: 20px;
 }
 .boton a{
     color: white;
