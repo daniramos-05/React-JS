@@ -1,12 +1,12 @@
-# React + Vite
+# Mi Tiendita:
+**Bueno, queria contarles un poco de como funciona o mejor dicho de que trata mi tiendita, es basicamente una tienda de ropa, donde podes encontrar prendas de vestir de la parte de arriba como una camiseta, musculosa, etc; o tambien partes de abajo o calzado. Agregando los productos al carrito.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Podes verificar tu salto total y seguir con tu compra con el boton "Finalizar Compra", ahi necesitaria que ingreses unos datos para poder generarte un numero de ticket para poder retirar la compra, muchas gracias.** 
 
-Currently, two official plugins are available:
+---
+### A continuacion adjunto el link de mi tiendita: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    https://mi-tiendita-in6s.vercel.app
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEwGNcWV05D-b9Y6None944W6oprG8rOry-3GsxKu2ukCeVt0whm8DUVLlLF0rDaS1xI&usqp=CAU)
