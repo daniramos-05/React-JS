@@ -1,5 +1,18 @@
 .contenedor-producto-mas-detalles {
     display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    .contenedor-producto-mas-detalles{
+        margin: 30px;
+    }
+}
+
+.contenedor-del-contenedor-prod-mas-detalles{
+    width: 50%;
+    display: flex;
+    justify-content: center;
     gap: 50px;
     flex-direction: column;
     align-items: center;
@@ -7,12 +20,6 @@
     padding: 10px;
     border: 2px black solid;
     border-radius: 20px;
-}
-
-@media (max-width: 768px){
-    .contenedor-producto-mas-detalles{
-        margin: 30px;
-    }
 }
 
 .nombre-mas-detalles {

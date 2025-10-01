@@ -13,3 +13,29 @@
     justify-content: center;
     gap: 10px;
 }
+
+.formulario {
+    font-size: 32px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.contenedor-ticket {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentario-ticket {
+    font-size: 25px;
+}
+
+.ticket {
+    padding: 8px;
+    background-color: #BDBFAE;
+    border: 2px white solid;
+    border-radius: 30px;
+    color: white;
+}

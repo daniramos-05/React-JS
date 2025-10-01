@@ -1,7 +1,7 @@
 .Link {
     text-decoration: none;
 }
-
-.Link span {
+.span {
+    font-size: 15px;
     color: #F2F2F2;
 }

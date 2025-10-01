@@ -9,7 +9,7 @@ const ItemCount = ({ producto }) => {
   const { addToCart } = useContext(CartContext);
 
   const sumar = () => {
-    if (count < 10) setCount(count + 1);
+    if (count < producto.stock) setCount(count + 1);
   };
 
   const restar = () => {

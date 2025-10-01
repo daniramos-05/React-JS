@@ -8,7 +8,7 @@ const Cart = () => {
   let totalAmount = getTotalPrice()
   return (
     <div className='contenedor-carrito'>
-      <h2>Carrito </h2>
+      <h2 className='carrito'>Carrito </h2>
       {
         cart.map((elemento, index) => {
           return (
@@ -21,11 +21,16 @@ const Cart = () => {
             </div>
           )
         })}
+      {cart.length === 0 ? (
+        <h2>El Carrito Esta Vacio</h2>
+      ) : (
         <div>
           <h3>El total del carrito es: ${totalAmount}</h3>
           <button className='boton' onClick={resetCart}>Limpiar todo el carrito</button>
           <button className='boton'><Link to="/checkout">Finalizar Compra</Link></button>
         </div>
+      )
+      }
     </div>
   )
 }
