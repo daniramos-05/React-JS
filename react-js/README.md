@@ -1,12 +1,7 @@
-# Mi Tiendita:
-**Bueno, queria contarles un poco de como funciona o mejor dicho de que trata mi tiendita, es basicamente una tienda de ropa, donde podes encontrar prendas de vestir de la parte de arriba como una camiseta, musculosa, etc; o tambien partes de abajo o calzado. Agregando los productos al carrito.**
+# Demo E-Comerce:
+**Hola como estas? Bueno, basicamente quise retratar lo que me gustaria brindarles a mis conocidos a la hora de crearles sus propios e-comerce, ya que tengo bastantes que se dedican a esto, el comprar y vender ya sea perfumes, productos de tecnologia, o incluso como hice en este ropa. En el mismo se va a poder ver todos los productos en la pantalla principal, también los podes filtrar por categorias (remeras, pantalones, calzados, etc), entrando al detalle de cada respectivo producto podes agregarlos al carrito, en el cual se va actualizando segun la cantidad de productos que vayas agregando.**
 
-**Podes verificar tu salto total y seguir con tu compra con el boton "Finalizar Compra", ahi necesitaria que ingreses unos datos para poder generarte un numero de ticket para poder retirar la compra, muchas gracias.** 
+**Al ingresar al carrito, podes verificar que esten todos tus productos, si queres eliminar o sumar mas, podes limpiar tu carrito si no te convence lo que compraste, y bueno obviamente realizar tu compra con el boton que dice "Finalizar compra", al completar el formulario de compra te va a aparecer un ticket, el cual por cualquier inconveniente me podes contactar** 
 
----
-### A continuacion adjunto el link de mi tiendita: 
 
-    https://mi-tiendita-in6s.vercel.app
-
----
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEwGNcWV05D-b9Y6None944W6oprG8rOry-3GsxKu2ukCeVt0whm8DUVLlLF0rDaS1xI&usqp=CAU)
+![](https://mir-s3-cdn-cf.behance.net/project_modules/hd/70514047026705.5607ef1f4a67f.png)
