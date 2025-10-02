@@ -5,3 +5,11 @@
 
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/hd/70514047026705.5607ef1f4a67f.png)
+
+### Tecnologías Utilizadas: ###
+
+- Vite 
+- React
+- Firebase
+- Entre otras...
+
